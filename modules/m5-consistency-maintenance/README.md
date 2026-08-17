@@ -1,5 +1,7 @@
 # M5 — Consistency and Modification
 
+**English** · [中文](README.zh.md)
+
 | | |
 |---|---|
 | **Chapters** | [16 Modifying Existing Code](https://yingang.github.io/aposd2e-zh/en/ch16.html) · [17 Consistency](https://yingang.github.io/aposd2e-zh/en/ch17.html) · [18 Code Should be Obvious](https://yingang.github.io/aposd2e-zh/en/ch18.html) |

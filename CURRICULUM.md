@@ -1,5 +1,7 @@
 # Curriculum
 
+**English** · [中文](CURRICULUM.zh.md)
+
 All 22 chapters of *A Philosophy of Software Design* (2nd ed.), grouped into 7 modules.
 Nothing is skipped.
 

@@ -1,5 +1,7 @@
 # M6 — Trends, Tradeoffs, and Judgment
 
+**English** · [中文](README.zh.md)
+
 | | |
 |---|---|
 | **Chapters** | [19 Software Trends](https://yingang.github.io/aposd2e-zh/en/ch19.html) · [20 Designing for Performance](https://yingang.github.io/aposd2e-zh/en/ch20.html) · [21 Decide What Matters](https://yingang.github.io/aposd2e-zh/en/ch21.html) · [22 Conclusion](https://yingang.github.io/aposd2e-zh/en/ch22.html) |

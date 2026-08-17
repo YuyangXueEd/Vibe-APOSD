@@ -1,5 +1,7 @@
 # How a module works
 
+**English** · [中文](README.zh.md)
+
 Every module in this course runs the same six phases and produces the same three artifacts.
 The uniformity is deliberate: once you have done M0, you know how M1 through M6 will run,
 and the only thing you have to think about is the design question itself.

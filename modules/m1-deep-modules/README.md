@@ -1,5 +1,7 @@
 # M1 — Deep Modules
 
+**English** · [中文](README.zh.md)
+
 | | |
 |---|---|
 | **Chapters** | [4 Modules Should Be Deep](https://yingang.github.io/aposd2e-zh/en/ch04.html) · [5 Information Hiding (and Leakage)](https://yingang.github.io/aposd2e-zh/en/ch05.html) · [6 General-Purpose Modules are Deeper](https://yingang.github.io/aposd2e-zh/en/ch06.html) |

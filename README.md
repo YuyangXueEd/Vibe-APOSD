@@ -1,5 +1,7 @@
 # Vibe APOSD
 
+**English** · [中文](README.zh.md)
+
 **A Socratic course on software design for the age of AI-generated code.**
 
 Textbook: *A Philosophy of Software Design*, 2nd edition, by John Ousterhout.
@@ -93,11 +95,14 @@ Detailed chapter-by-chapter breakdown and the reasoning behind this grouping:
 ```
 .
 ├── README.md          You are here — thesis, method, curriculum
+├── README.zh.md       中文版
 ├── CLAUDE.md          Operating instructions for the AI agent acting as teacher
 ├── CURRICULUM.md      22 chapters mapped to 7 modules, with grouping rationale
+├── CURRICULUM.zh.md   中文版
 ├── modules/           One directory per module; identical interface, different content
 │   └── mN-name/
 │       ├── README.md       Chapters, core question, learning objectives, exercise brief
+│       ├── README.zh.md    中文版
 │       ├── socratic-log.md The dialogue, distilled into teaching material
 │       └── case-study/     AI-generated code, the critique, and the refactor
 │           ├── python/
@@ -152,9 +157,16 @@ substitute for reading the original, and the original is short. Buy it.
 
 ## Language policy
 
-All committed material is in **English**, so it is useful to as many people as possible.
-Lessons themselves can be conducted in any language — the log records the *reasoning*, not
-the transcript. Technical terms stay in English everywhere.
+**Working artifacts are English** — `socratic-log.md`, `findings.md`, case study code,
+`prompts/`, commit messages — so the output is useful to as many people as possible.
+
+**Entry documents are bilingual.** This file, [CURRICULUM.md](CURRICULUM.md),
+[modules/README.md](modules/README.md), and each of the seven module briefs have Chinese
+parallel versions (`*.zh.md`), linked at the top of each. **English is authoritative**: where
+the two diverge, the English file is correct and the Chinese one is stale.
+
+Lessons themselves can be conducted in any language — the log records the *reasoning*, not the
+transcript. Technical terms stay in English everywhere, including inside the Chinese documents.
 
 ## Progress
 

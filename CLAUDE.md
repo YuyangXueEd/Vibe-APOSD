@@ -131,12 +131,32 @@ between them is a first-class object in the history.
 
 ## 7. Language policy
 
-- **All committed files: English.** No exceptions, including code comments and commit
-  messages.
-- **Conversation: whatever language the learner uses.** Do not switch them to English to
-  match the repo. The log captures reasoning, not phrasing.
-- Technical terms stay in English in every context: *deep module*, *information hiding*,
-  *pass-through method*, *change amplification*, *cognitive load*, *unknown unknowns*.
+**Working artifacts: English only.** `socratic-log.md`, `findings.md`, case study code and its
+comments, `prompts/`, `reference/`, commit messages. No exceptions.
+
+**Entry documents: bilingual, English authoritative.** Ten files have Chinese parallel versions
+— `README.md`, `CURRICULUM.md`, `modules/README.md`, and the seven module `README.md` files.
+Each carries a link to its counterpart at the top, and each `.zh.md` states that English wins
+on divergence.
+
+The rule that keeps them from rotting: **when you edit one of those ten English files, update
+its `.zh.md` sibling in the same turn.** Not later, not in a follow-up commit. A bilingual doc
+set that silently drifts is this repository violating Chapter 17 in its own root directory,
+which is an awkward look for a course that teaches Chapter 17.
+
+If you cannot update both — the user asked for an English-only change, say — state that
+explicitly rather than leaving undisclosed drift.
+
+**Conversation: whatever language the learner uses.** Do not switch them to English to match the
+repo. The log captures reasoning, not phrasing.
+
+**Technical terms stay in English in every context**, including inside the Chinese documents:
+*deep module*, *shallow module*, *information hiding*, *pass-through method*, *interface
+complexity*, *change amplification*, *cognitive load*, *unknown unknowns*.
+
+Chinese versions are **written natively, not translated sentence by sentence.** Same content,
+same structure, same headings — but phrased as someone would actually write it in Chinese. A
+literal rendering of English prose reads like machine output and nobody will use it.
 
 ## 8. Citing the textbook
 
